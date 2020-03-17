@@ -30,3 +30,8 @@ print('Here is the sort list:         ', List_count)
 List_count.sort(reverse=True)
 print('Here is the reverse list again:', List_count)
 print('----------------------------------------------\n')
+
+# 使用函数len()可快速获悉列表的长度.
+print("-----------------[list's len]-----------------")
+print('Here is the list:', List_count)
+print('Here is the list\'s len:', len(List_count))
